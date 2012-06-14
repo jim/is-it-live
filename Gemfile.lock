@@ -1,0 +1,29 @@
+GIT
+  remote: https://github.com/libgit2/rugged.git
+  revision: b81dab7ae9c5f5b71f1d087c6f7e13e1a2a1dd2b
+  ref: development
+  specs:
+    rugged (0.16.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ansible (0.2.0)
+    haml (3.1.6)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ansible
+  haml
+  rugged!
+  sinatra
